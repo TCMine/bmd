@@ -235,7 +235,6 @@ module.exports = {
             online: true
           }
         };
-        console.log(dataToSend)
         const items = ["textChannels", "voiceChannels", "categories", "roles"];
 
         items.forEach(item => {
