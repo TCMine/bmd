@@ -39,7 +39,7 @@ module.exports = {
     },
     {
         element: "text",
-        text: "Variables are used for components on the dashboard. You can use a server/global variable or call a command/event and specify the stored temporary variable"
+        text: "Variables are used for components on the dashboard. You can use a server/global variable or call a command/event and specify the stored temporary variable. The variable should be an object containing the names of each dashboard variable and their values."
     },
     {
       element: "input",
@@ -50,7 +50,7 @@ module.exports = {
     {
       element: "variable",
       storeAs: "dashboardVars",
-      name: "Dashboard Variable Input",
+      name: "Dashboard Variable Object Input",
     },
     "-",
     {
