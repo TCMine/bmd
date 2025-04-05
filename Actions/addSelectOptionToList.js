@@ -1,6 +1,6 @@
 module.exports = {
   data: {
-    name: "Store Dashboard Interaction Info"
+    name: "Add Select Option to List"
   },
 
   info: {
